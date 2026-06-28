@@ -67,6 +67,13 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>alps-bte-snapshots</id>
+            <url>https://mvn.alps-bte.com/repository/alps-bte-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <!-- Considering this project is purely used as a library, it makes sense for the default goal
          to install -->
